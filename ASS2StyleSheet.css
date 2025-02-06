@@ -1,0 +1,37 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation menu styling */
+.menu {
+    list-style-type: none;
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Hover color */
+.menu li a:hover {
+    background-color: black;
+    border-radius: 5px;
+}
+
+.menu li a.active {
+
+    border-radius: 5px;
+}
